@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from Jenkins CI/CD Pipeline!',
+    message: 'Hello from Jenkins CI/CD Pipeline! and pipeline executed successfully',
     version: '1.0.0',
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV || 'development'
